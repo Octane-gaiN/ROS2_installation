@@ -1,8 +1,8 @@
 Файлы для быстрого скачивания ROS2, Docker и запуска micro-ROS agent
-## Установка ROS2
-# Скачайте файл в терминале: 
+# Установка ROS2
+## Скачайте файл в терминале: 
 ```bash
-wget
+wget https://raw.githubusercontent.com/Octane-gaiN/ROS2_installation/main/ROS2_installation.sh
 chmod +x ROS2_installation.sh
 ./ROS2_installation.sh
 ```
@@ -15,14 +15,14 @@ chmod +x ROS2_installation.sh
 # Чтобы выбрать её, поставьте # в начале команды выше и уберите # в строке ниже:
 sudo apt update && sudo apt upgrade -y && sudo apt install ros-jazzy-ros-base ros-dev-tools -y
 ```
-## Установка Docker и micro-ROS Agent (Jazzy)
-# Скачайте файл в терминале: 
+# Установка Docker и micro-ROS Agent (Jazzy)
+## Скачайте файл в терминале: 
 ```bash
-wget
+wget https://raw.githubusercontent.com/Octane-gaiN/ROS2_installation/main/docker_microROS_installation.sh
 chmod +x docker_microROS_installation.sh
 ./docker_microROS_installation.sh
 ```
-# После установки выполните команду: 
+## После установки выполните команду: 
 ```bash
 su - ${USER}
 ```
